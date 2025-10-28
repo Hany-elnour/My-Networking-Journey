@@ -7,4 +7,3 @@ LAB 6:
 >>>> A virtual Router with IP Address of 10.1.1.4 /24 is also been setup.
 >>>> Router1 is Active and Router0 is on Standby to take over in case of any failures.
 
-LAB 11: 
