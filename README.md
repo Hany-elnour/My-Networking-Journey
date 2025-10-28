@@ -24,5 +24,6 @@ I recently earned my **CCNA** and am now documenting my journey as I specialize 
 
 | Project / Lab | Description |
 |---------------|------------|------|
-| **CCNA Mega Lab** | This lab covers a complete network configuration from zero, including topics like IPv4 and IPv6, static routes, VLANs, spanning tree, OSPF, EtherChannel, DHCP, DNS, NAT, SSH, security features, wireless, and more – everything on the CCNA exam! 
+| **CCNA Mega Lab** | 
+This lab covers a complete network configuration from zero, including topics like IPv4 and IPv6, static routes, VLANs, spanning tree, OSPF, EtherChannel, DHCP, DNS, NAT, SSH, security features, wireless, and more – everything on the CCNA exam! 
 
