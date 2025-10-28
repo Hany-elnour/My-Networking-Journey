@@ -1,6 +1,6 @@
 # Network-Engineering-Path 🌐
 
-Hi, I’m **Merghani (AKA Hany) Hag Elnour**, a computer science graduate and aspiring network engineer.  
+Hi, I’m **Merghani (AKA Hany) Hag Elnour**, a recent computer science graduate and aspiring network engineer.  
 This repository documents my **network engineering journey**, including CCNA labs, configurations, study notes, and hands-on projects.  
 My studies focused primarily on **Software Development**.  
 
