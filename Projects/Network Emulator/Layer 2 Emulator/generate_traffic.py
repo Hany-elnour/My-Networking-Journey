@@ -12,3 +12,5 @@ incoming_frame("DE:AD:BE:EF:00:01", "FF:FF:FF:FF:FF:FF", ingress_port="Eth0/3", 
 incoming_frame("AA:BB:CC:DD:EE:FF", "F8:16:54:2A:99:44", ingress_port="Eth0/1", size=900)
 incoming_frame("40:16:7E:99:00:12", "B8:27:EB:66:42:66", ingress_port="Eth0/6", size=350)
 incoming_frame("88:99:AA:BB:CC:12", "FF:FF:FF:FF:FF:FF", ingress_port="Eth0/2", size=1400)
+
+show_mac_address_table()
