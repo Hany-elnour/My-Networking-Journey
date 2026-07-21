@@ -4,7 +4,7 @@ Hi, I’m **Merghani (AKA Hany) Hag Elnour**, a recent computer science graduate
 This repository documents my **network engineering journey**, including CCNA labs, configurations, study notes, and hands-on projects.  
 My studies focused primarily on **Software Development**.  
 
-I recently earned my **CCNA** and am now documenting my journey as I specialize in **network automation**, with the goal of eventually pursuing a **CCNP in Network Automation**.  
+I recently earned my **CCNA** and am now documenting my journey as I specialize in various **network technologies**, with the goal of eventually pursuing a **CCNP ENTERPRISE**.  
 
 > “Passionate about hands-on networking and continuous learning. Applying software development methodologies to network infrastructure for real-world solutions”
 
@@ -13,7 +13,7 @@ I recently earned my **CCNA** and am now documenting my journey as I specialize 
 ## 🎯 My Goals
 
 - Build a strong foundation in **networking fundamentals** and Cisco technologies  
-- Complete **Cisco certifications**: CCNA✅ , CCNA & CCNP DevNet (Automation)  
+- Complete **Cisco certifications**: CCNA✅ , CCNP ENCORE + ENSARI (ENTERPRISE)
 - Develop **network automation skills** using Python, REST APIs, and automation tools  
 - Create **hands-on labs and projects** that mirror real-world networks  
 - Maintain a professional, visual portfolio to demonstrate my abilities
@@ -23,8 +23,9 @@ I recently earned my **CCNA** and am now documenting my journey as I specialize 
 ## 💼 Highlighted Projects
 
 | Project / Lab | Description |
-|---------------|------------|------|
-| **CCNA Mega Lab** |                                                                                                                             
+|---------------|-------------|
+| **govNet BGP Core Backbone** | Enterprise-grade multi-AS public sector ISP core featuring MP-BGP, IPv6 dual-stacking, sub-AS confederations, and 4-Byte ASNs. Implements advanced path manipulation (Local Pref, MED, AS-Path prepending), dynamic community policies, and GRE transit overlays. |
+| **AI Network Lab Orchestrator** | Autonomous network orchestration engine utilizing Claude, MCP, Docker, and the EVE-NG API to programmatically build, configure, and manage CCNA/CCNP-level lab topologies on demand. |
+|
 
-This lab covers a complete network configuration from zero, including topics like IPv4 and IPv6, static routes, VLANs, spanning tree, OSPF, EtherChannel, DHCP, DNS, NAT, SSH, security features, wireless, and more – everything on the CCNA exam! 
 

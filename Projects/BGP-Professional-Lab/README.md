@@ -15,7 +15,7 @@ This repository contains the complete architectural specifications, topology des
 
 ## 📐 Network Topology & Autonomous System Hierarchy
 
-![Network Topology Diagram] (Topology.png)
+![Network Topology Diagram](Topology.png)
 
 ### Autonomous System Allocation Matrix
 
