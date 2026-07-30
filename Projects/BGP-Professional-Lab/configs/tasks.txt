@@ -1,0 +1,61 @@
+Nine routers belong in the topology.
+use these AS numbers:
+      -AS 1
+      -AS 23
+      -AS 4567
+This is a confederation that contains sub-ASes 45 and 67.
+      -AS 65505.9
+The ISP router belongs to the Tier 1 ISP.
+The ISP router contains several public networks in its BGP table.
+All routers except for R8 participate in BGP.
+AS 999 belongs to the Tier 1 ISP.
+
+OSPF:✅
+require an IGP such as OSPF for the iBGP peerings.✅
+    -Configure OSPF in ASes 23 and 4567 to prepare for the iBGP peerings.✅
+
+Tunnels:✅
+R8 doesn’t have an AS number yet, but R5 and R9 must establish a BGP neighbor adjacency. Need to come up with a viable solution.✅
+
+    -Configure a tunnel solution so that R5 and R9 can establish a neighbor adjacency using their loopback interfaces.✅
+    -not allowed to make any changes to R8 except for two static routes.✅
+    -allowed to create two static routes on R5 and R9.✅
+
+
+
+BGP Fundamentals:✅
+
+Create iBGP and eBGP IPv4 peerings✅
+Next, create the BGP peerings as shown in the network topology:✅
+
+    -Configure iBGP peerings with loopback interfaces. Do not use physical interfaces.✅
+    -Configure eBGP peerings with physical interfaces, with one exception.✅
+
+Here is an overview of all required BGP peerings:✅
+    -eBGP peering between R1 and the ISP router.✅
+    -eBGP peering between R1 and R2.✅
+    -eBGP peering between R1 and R3.✅
+    -eBGP peering between R1 and R4.✅
+    -iBGP peering between R2 and R3.✅
+    -eBGP peering between R2 and R4.✅
+    -eBGP peering between R3 and R5.✅
+    -Peerings between routers in the confederation AS 4567 and their sub ASes.✅
+    -eBGP multi-hop peering between R5 and R9:✅
+    -Use loopback interfaces as the source for eBGP.✅
+    -Ensure that the 4-byte AS number is correctly interpreted by R5 and the rest of the BGP topology.✅
+
+
+Create eBGP IPv6 peering:⏳
+     -Configure a second eBGP peering between the ISP and R1 router using IPv6.⏳
+     -Advertise the IPv6 networks on the ISP router in BGP.⏳
+     -Use the IPv6 addresses on the physical interface for the BGP peering.⏳
+
+Advertise Routes:⏳
+    -Advertise the directly connected IPv4 networks on the ISP router using redistribution.⏳
+    -Advertise the IPv4 network of Loopback 0 on the ISP router into BGP using the network command.⏳
+    -Advertise the IPv6 prefixes on loopbacks 0 to 19 on the ISP router into BGP via the IPv6 peering using the network command.⏳
+    -Configure AS23 to receive IPv6 routes over the IPv4 eBGP peerings with R1.⏳
+    -Configure the network so that IPv6 routes are propagated into AS 1 and AS 23 but not beyond.⏳
+    -Advertise the IPv4 address on the loopback interfaces of all BGP routers into BGP using the network command.⏳
+
+
