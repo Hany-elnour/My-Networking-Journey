@@ -4,9 +4,8 @@ Hi, I’m **Merghani (AKA Hany) Hag Elnour**, a recent computer science graduate
 This repository documents my **network engineering journey**, including CCNA labs, configurations, study notes, and hands-on projects.  
 My studies focused primarily on **Software Development**.  
 
-I recently earned my **CCNA** and am now documenting my journey as I specialize in various **network technologies**, with the goal of eventually pursuing a **CCNP ENTERPRISE**.  
+I recently earned my **CCNA** and am now documenting my journey as I specialize in various **network technologies**, currently pursuing a **CCNP ENTERPRISE**.  
 
-> “Passionate about hands-on networking and continuous learning. Applying software development methodologies to network infrastructure for real-world solutions”
 
 ---
 
